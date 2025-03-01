@@ -37,7 +37,7 @@ const PCOSForm = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
+            const response = await axios.post("https://pcos-prediction-gvcc.onrender.com/predict", formData, {
                 headers: { "Content-Type": "application/json" },
             });
             navigate("/result", { state: { prediction: response.data["PCOS Prediction"] } });
