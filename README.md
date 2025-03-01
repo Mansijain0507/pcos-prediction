@@ -49,11 +49,9 @@ npm start
 2. Click **"Test Your PCOS Now"** on the home page.
 3. Fill out the form and submit it.
 4. View the PCOS prediction result.
-5. Chat with the AI-based PCOS chatbot.
 
 ## API Endpoints
 - **`POST /predict`** - Sends form data and returns the PCOS prediction.
-- **`POST /chat`** - Queries the chatbot for PCOS-related questions.
 
 ## Contributors
 - **Mansi Jain** (Frontend & Backend Development, AI Integration)
