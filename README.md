@@ -24,8 +24,8 @@ SheCares is a web application designed to predict the likelihood of PCOS (Polycy
 ## Installation & Setup
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/shecares.git
-cd shecares
+git clone https://github.com/yourusername/pcos-prediction.git
+cd pcos-prediction
 ```
 
 ### **2. Backend Setup (Flask API)**
@@ -39,7 +39,7 @@ python app.py  # Start backend server
 
 ### **3. Frontend Setup (React App)**
 ```bash
-cd frontend
+cd pcos-frontend
 npm install
 npm start
 ```
